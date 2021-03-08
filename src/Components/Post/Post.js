@@ -21,7 +21,7 @@ const Post = (props) => {
             <h1>Post Id: {id}</h1>
             <h2>Post Title: {title}</h2>
             <p>Post Body: {body}</p>
-            <button onClick={()=>showComments(props.post.id)}>Show Comments</button>
+            <button onClick={()=>showComments(id)}>Show Comments</button>
         </div>
     );
 };

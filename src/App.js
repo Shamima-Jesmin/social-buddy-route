@@ -38,11 +38,11 @@ function App() {
           <Route path="/home">
             <Home></Home>
           </Route>
-          <Route path="/post">
-            <Post></Post>
+          <Route exact path="/post">
+            <h1>Post</h1>
           </Route>
           <Route path="/post/:id">
-            <PostDetail></PostDetail>
+           <PostDetail></PostDetail>
           </Route>
         </Switch>
       </div>
